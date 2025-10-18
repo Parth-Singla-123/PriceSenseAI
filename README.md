@@ -1,4 +1,4 @@
-# 🧠 Multimodal Price Prediction on Real Amazon Dataset 
+# 🧠 Multimodal Price Prediction 
 
 A machine learning solution developed for the **Amazon ML Challenge**, combining **tabular**, **text**, and **image** features to predict product prices using a **multimodal stacking ensemble**.  
 The approach integrates **LightGBM**, **Sentence Transformers**, and **CNN-based embeddings** for robust performance across diverse data modalities.
@@ -59,7 +59,7 @@ Our "3+1" architecture is a two-level learning system:
 - **Level 1:** A single **LightGBM meta-learner** combining their predictions.
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1-u8bnYOV3gfaUsd__adFMs4B7PuCFmW3" alt="Model Architecture" width="600"/>
+  <img src="https://drive.google.com/uc?export=view&id=1-u8bnYOV3gfaUsd__adFMs4B7PuCFmW3" alt="Model Architecture" width="400"/>
 </p>
 
 ---
@@ -134,10 +134,14 @@ The approach demonstrated that combining diverse, specialized models can outperf
 ### B. Additional Results
 
 #### Base Model Feature Importance
-![Feature Plot](https://drive.google.com/uc?export=view&id=1kNrn2fehYnEbXvj8eN89tHxq0o0xHEa1)
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1kNrn2fehYnEbXvj8eN89tHxq0o0xHEa1" alt="Feature Plot" width="400"/>
+</p>
 
 #### Ensemble Feature Importance
-![Final Ensemble Dependency](https://drive.google.com/uc?export=view&id=1IQAd-IGO7pArkvlAXeJa1MCVZ0hPeWe8)
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1IQAd-IGO7pArkvlAXeJa1MCVZ0hPeWe8" alt="Final Ensemble Dependency" width="400"/>
+</p>
 
 ---
 
